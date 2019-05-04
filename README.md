@@ -40,8 +40,16 @@ const   unsigned int  g_CallibrationMin = 1400; // Default min (DRY)
 const   unsigned int  g_CallibrationMax = 3040; // Default max (under water)
 const   unsigned int  g_LapseInterval = 2000;   // Lapse interval read on loop
                                                 // if g_LapseInterval=0 -->no lapse
+CapacitiveMoisture    g_SensorCap=CapacitiveMoisture();
+
 void setup() {
   g_SensorCap.setup(g_PinSensor, g_LapseInterval, g_CallibrationMin,  g_CallibrationMax);
+  
+  // if you want see callibration recomended values keep this three lines.
+  // in other case remove
+  unsigned int numRead=100;           // number of read for callibration
+  unsigned int LapseDelayMillis=3000; //Time lapse between readings
+  g_SensorCap.debugCalibration(numRead,LapseDelayMillis);
 }
 
 loop()
@@ -50,5 +58,8 @@ g_SensorCap.loop();
 }
 
 ```
+![alt text](https://github.com/vniclos/esp32-capacitative-soil-sensor/blob/master/img/callibration.png?raw=true "Esp32 capacitative soil sensor" )
+
+
 Contac with me on facebook 
 https://www.facebook.com/vicente.niclos

@@ -58,6 +58,10 @@ g_SensorCap.loop();
 }
 
 ```
+#### The output on serial port for callibration is like this image, on the las line you see the min and max values,
+this is recomeneded values for g_CallibrationMin and g_CallibrationMax
+
+
 ![alt text](https://github.com/vniclos/esp32-capacitative-soil-sensor/blob/master/img/callibration.png?raw=true "Esp32 capacitative soil sensor" )
 
 

@@ -31,6 +31,7 @@ Callibrate function
 
 Example:
 
+``` c++
 #include "CapacitiveMoisture.h"
 //-------------------------------------------
 
@@ -43,8 +44,11 @@ void setup() {
   g_SensorCap.setup(g_PinSensor, g_LapseInterval, g_CallibrationMin,  g_CallibrationMax);
 }
 
+loop()
+{
+g_SensorCap.loop();
+}
 
-
-
+```
 Contac with me on facebook 
 https://www.facebook.com/vicente.niclos

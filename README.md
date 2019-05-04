@@ -1,7 +1,8 @@
 # ESP32 CAPACItIVE SOIL MOISTURE
 
-![alt text](https://github.com/vniclos/robot-arm4-esp32/blob/master/img/robot-00.jpg "Robot ARM4X builded" )
-
+![alt text](![alt text](https://github.com/vniclos/esp32-capacitative-soil-sensor/blob/master/img/squematic.png"Robot ARM4X builded" )
+ "Robot ARM4X builded" )
+?raw=true
 ## Hardware
 
 - 1 ESP32 DEVKIT V1

@@ -1,4 +1,4 @@
-# ESP32 CAPACItIVE SOIL MOISTURE
+# ESP32 CAPACITIVE SOIL MOISTURE SENSOR
 
 ![alt text](https://github.com/vniclos/esp32-capacitative-soil-sensor/blob/master/img/squematic.png?raw=true "Esp32 capacitative soil sensor" )
 

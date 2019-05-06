@@ -1,4 +1,7 @@
-# ESP32 CAPACITIVE SOIL MOISTURE SENSOR
+# ESP32 CAPACITIVE SOIL MOISTURE SENSOR EXAPLES
+In this folder have two exaples.
+- 1  for use for callibration with the ouput by serial port.
+- 2  integrated in a web server, 
 
 ![alt text](https://github.com/vniclos/esp32-capacitative-soil-sensor/blob/master/img/squematic.png?raw=true "Esp32 capacitative soil sensor" )
 
